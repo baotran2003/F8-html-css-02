@@ -423,3 +423,79 @@ a {
     color: #fff;
     background: var(--primary-color);
 }
+
+/* ======================Feedback==================== */
+.feedback {
+    margin-top: 136px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback-item {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.feedback-item .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .info .title {
+    margin-top: 18px;
+    font-family: var(--font-heading);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    /* identical to box height, or 142% */
+    color: #f7f7f7;
+}
+
+.feedback-item .info .desc {
+    margin-top: 4px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.feedback-item .dots {
+    display: flex;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.feedback-item .dot {
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #634700;
+}
+
+.feedback-item .dot.active {
+    background: #ffb900;
+    cursor: default;
+}
+
+.feedback-item .content {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item blockquote {
+    margin-left: 30px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
